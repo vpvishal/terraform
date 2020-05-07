@@ -1,0 +1,9 @@
+Terraform project to create below
+1. Instance
+2. VPC
+3. Subnets in each availability zone
+4. Add AMI name in vars.tf file to include other regions to setup other region instance creation.
+5. Manual inputs - region name / (data in vars.tf) var for az / change the same for az var declared places
+Note:
+Key name is valid only for region - Mumbai
+Instance does not gets tagged to VPC/Subnet
